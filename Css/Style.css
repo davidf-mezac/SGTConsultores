@@ -1,0 +1,643 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --primary-color: #ffffff;
+    --secondary-color: #7F87F4;
+    --tercer-color: #000000;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header>div{
+    background-color: var(--primary-color);
+    width: auto;
+    height: auto;
+
+}
+span{
+    color: var(--tercer-color);
+}
+.verde{
+    color: #00AE48;
+}
+ul {
+    list-style: none;
+}
+li a {
+    color: var(--tercer-color);
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1.3rem;
+}
+li a:hover{
+    background-color: var(--secondary-color);
+    border-radius: 50px;
+}
+ul li {
+    display: inline;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between
+}
+.front{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.front h2{
+    text-align: center;
+
+}
+.navegacion{
+    display: flex;
+    align-items: center;
+}
+nav {
+    display: flex;
+    margin-right: 20px;   
+}
+/* ----------- end navbar ------------ */
+
+/*------container1-------*/
+.container1{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+.container1 .banner{
+    display: flex;
+    padding: 0;
+    width: 400%;
+	-moz-animation:banner 20s alternate 0 infinite;
+    -webkit-animation:banner 20s alternate 0 infinite;
+    animation:banner 30s infinite;
+}
+.container1 .banner div{
+    width: 100%;
+}
+.container1 .banner div img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes banner{
+    5%, 20%{
+        margin-left: 0%;
+    }
+    25%, 50%{
+        margin-left: -100%;
+    }
+    55%, 75%{
+        margin-left: -200%;
+    }
+    80%, 90%{
+        margin-left: -300%;
+    }
+    91%, 99%{
+        margin-left: 0%;
+    }
+}
+/*--------end container1----------*/
+
+/*---------container3------------*/
+.container3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.container3 .row h2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 20px;
+    color: rgb(60, 63, 84);
+}
+.container3 .row h4{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: rgb(60, 63, 84);
+}
+.container3 .row2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container3 .row2 .col-30{
+    width: 20%;
+    justify-content: center;
+}
+.container3 .row2 .col-30 figure{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.container3 .row2 .col-30 figure img{
+    width: 90%;
+    height: 250px;
+    border-radius: 60px/20px;
+}
+.container3 .row2 .col-30:nth-child(1) div{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.container3 .row2 .col-30:nth-child(2) div{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.container3 .row2 .col-30:nth-child(3) div{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.container3 .row2 .col-30 div a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 0px auto;
+}
+/*---------end container3------*/
+
+/*--------container4-----------*/
+.container4{
+    width: 100%;
+    height: 70vh;
+    object-position: center center;
+}
+.container4 .background{
+    background-image: url(../image/fondo1.jpg) ;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position:100% 72%;
+    height: 70vh;
+} 
+.container4 .background .row{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.container4 .background .row .col-100{
+    margin: 0 auto;
+    justify-content: center;
+}   
+.container4 .background .row .col-100 h4{
+    justify-content: center;
+    text-align: center;
+    color: rgb(60, 63, 84);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+.container4 .background .row .col-100 p{
+    justify-content: center;
+    text-align: center;
+    color: #231F20;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+.container4 .background .row .col-100 input{
+    justify-content: center;
+    text-align: center;
+    background-color: azure;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-top: 15px;
+    width: 50%;
+} 
+.container4 .background .row .col-100 button{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(60, 63, 84);
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 30px;
+    width: 20%;
+    border-radius: 10px;
+}
+.container4 .background .row .col-100 button:hover{
+    background-color: azure;
+    color: black;
+}
+/*-------end container4--------*/
+
+/*-------container5---------*/
+.container5{
+    width: 100%;
+    height: 500px;
+}
+.container5 .background{
+    background-image: url(../image/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 500px; 
+}
+.container5 .back-color{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+.container5 .row{
+    width: 40%;
+    height: 450px;
+    margin-left: 200px;
+    text-align: left ;
+    display: flex;
+    align-items: center;
+}
+.container5 .row .col-60{
+    width: 100%;
+    padding: 30px;
+}
+.container5 .row .col-60 h2{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #231F20;
+}
+.container5 .row .col-60 h4{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.container5 .row .col-60 p{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bdb6b6;
+    margin-bottom: 30px;
+}
+.container5 .row .col-60 p b {
+    font-weight: bold;
+}
+.container5 .row .col-60 button{
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    font-weight: 600;
+    border-radius: 10px;
+    transition:  ease-in-out;
+}
+.container5 .row .col-60 button:hover{
+    background-color: rgb(255, 255, 255);
+    color:black;
+    cursor: pointer;
+    transform: translateX(50px);
+}
+/*------ end container5-----*/
+
+/* ----------- footer ------------ */
+.container-footer{
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color:#ffffff;
+    flex-direction: column;
+}
+.container-footer .row{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: auto;
+    margin: 1em auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-footer .row .col-25{
+    width: 25%;
+    padding: auto;
+    margin: 10px;
+    background-color: white;
+}
+.container-footer .row .col-25 img{
+    /* width: 30%; */
+    margin: 0 auto;
+    margin-top: auto;
+}
+.container-footer .log img{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-footer .redes img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-footer .row .col-25 ul{
+    text-align:center;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+    word-wrap: break-word;
+}
+.container-footer .row .col-25 ul li{
+    text-align:center;
+    color: rgb(232, 232, 232);
+    font-family: 'Barlow', sans-serif;
+    word-wrap: break-word;
+}
+.container-footer .row .col-25 ul li img{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    padding: auto;
+}
+.container-footer .row .col-25 ul p{
+    margin: 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}
+.container-footer .row .col-25:nth-child(1) ul li{
+    color: blue;
+    text-align: justify;
+    margin: 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+}
+/* .container-footer .row .col-25:nth-child(2) ul{
+    width: 100%;
+    padding-left: 0px;
+    align-items: center;
+} */
+.container-footer .row .col-25:nth-child(2) ul li{
+    list-style: none;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    color:rgb(116, 108, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    line-height: 3rem;
+}
+.container-footer .row .col-25:nth-child(2) ul li:hover{
+    cursor: pointer;
+    color: #5CD5F8;
+}
+.container-footer .row .col-25:nth-child(3) ul li{
+    list-style: none;
+    /* padding: 5px 10px; */
+    padding: auto;
+    font-size: 1.3rem;
+    color:rgb(103, 116, 107);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: left;
+    word-break: break-all;
+    line-height: 2.5rem;
+    margin-left: 1px;
+    display: table;
+    vertical-align: middle;
+    padding: 5px 10px;
+}
+.container-footer .row .col-25:nth-child(3) ul li:hover{
+    cursor: pointer;
+    color: #5CD5F8;
+}
+
+/* Contenedor Copyright */
+.container-footer .row:nth-child(2){
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-footer .row:nth-child(2) img{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: auto;
+}
+.container-footer .row:nth-child(2) span{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+/* ----------- end footer ------------ */
+
+/* RESPONSIVE */
+@media (max-width:768px){
+    li a {
+        font-size: 1em;
+    }
+    .front{
+        margin-left: 5px;
+    }
+    .container3 .row2 .col-30{
+        width: 30%;
+    }
+    .container5 .row{
+        width: 70%;
+        margin-left: 150px;
+    }
+    .container-footer .row{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-footer .row .col-25{
+        width: 90%;
+        margin: 10px;
+    }
+    .container-footer .log img{
+        width: 20%;
+        height: 100px;
+    }
+    .container-footer .redes img{
+        width: 30%;
+        height: 150px;
+    }
+    .container-footer .row .col-25:nth-child(3) ul {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+    }
+    .container-footer .row .col-25:nth-child(3) ul li{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+    }
+    .container-footer .row .col-25:nth-child(4) {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+    }
+    .container-footer .row .col-25:nth-child(4) h2{
+        color: white;
+    }
+}
+@media(max-width:480px){
+    header .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    .navegacion{
+        margin-top: 20px;
+    }
+    .container3{
+        height: 100%;
+    }
+    .container3 .row h2{
+        font-size: 1.7em;
+    }
+    .container3 .row h4{
+        font-size: 2.5em;
+    }
+    .container3 .row2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .container3 .row2 .col-30{
+        width: 80%;
+        height: 25%;
+    }
+    .container3 .row2 .col-30 figure img{
+        height: 90px;
+        width: 190px;
+    }
+    .container3 .row2 .col-30:nth-child(1) div {
+        margin: 0px auto;
+        margin-bottom: 25px;
+    }
+    .container3 .row2 .col-30:nth-child(2) div {
+        margin: 0px auto;
+        margin-bottom: 25px;
+    }
+    .container3 .row2 .col-30:nth-child(3) div {
+        margin: 0px auto;
+        margin-bottom: 25px;
+    }
+    .container5 .row{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        margin-left: 80px;
+        text-align: center;
+        align-items: center;
+    }
+
+}
+@media(max-width:370px){
+    header .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        width: 100%;
+        padding: 0px;
+    }
+    .navegacion{
+        width: 100%;
+        margin: 0px;
+    }
+    .navegacion ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        /* margin-top: 20px; */
+    }
+    .navegacion ul li{
+        margin: 10px;    
+    }
+
+    .container5 .row{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }  
+    .container5 .row .col-60{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+    .container5 .row .col-60 h4{
+        margin-top: 20px;
+        margin-bottom: 50px;    
+    }
+ 
+    .container5 .row .col-60 p{
+       margin-bottom: 20px;    
+    }
+    .container5 .row .col-60 button{
+        margin-top: 40px;  
+        padding: 10px;  
+     }
+}

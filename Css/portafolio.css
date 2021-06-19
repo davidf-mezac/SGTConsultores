@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body, main{
+    margin: 0px;
+    padding: 0px;
+}
+header>div{
+    background-color: var(--primary-color);
+    width: 100%;
+    height: auto;
+
+}
+span{
+    color: var(--tercer-color);
+}
+.verde{
+    color: #00AE48;
+}
+ul {
+    list-style: none;
+}
+li a {
+    color: var(--tercer-color);
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1.3rem;
+}
+li a:hover{
+    background-color: var(--secondary-color);
+    border-radius: 50px;
+}
+ul li {
+    display: inline;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+.front{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.front h2{
+    text-align: center;
+}
+.navegacion{
+    display: flex;
+    align-items: center;
+}
+nav {
+    display: flex;
+    margin-right: 20px;   
+}
+/* fin header */
+/* Main */
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.container .row{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+.container .row .col:nth-child(1){
+    width: 25%;
+    background-image: url(https://www.ismedioambiente.com/wp-content/uploads/2019/04/Consultoria-ambiental.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    height: 40vh;
+    margin: 10px;
+    border-radius: 5px;
+}
+.container .row .col:nth-child(2){
+    width: 25%;
+    background-image: url(https://www.alapsaasesoriasjuridicas.com/wp-content/uploads/2016/05/criminal-law-640x506.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    height: 40vh;
+    margin: 10px;
+    border-radius: 5px;
+}
+.container .row .col:nth-child(3){
+    width: 25%;
+    background-image: url(https://proteccioncivil.zacatecas.gob.mx/wp-content/uploads/2020/09/Con-actividades-virtuales-conmemoran-Semana-Nacional-de-Proteccion-Civil-0-1-680x380.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    height: 40vh;
+    margin: 10px;
+    border-radius: 5px;
+}
+.container .row2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+.container .row2 .col:nth-child(1){
+    width: 25%;
+    background-image: url(https://conciencianacional.org/wp-content/uploads/2019/08/d12296fd-2c1e-4247-a93e-6aae8db3e1a0.png);
+    background-position: center;
+    background-size: auto 100%;
+    height: 40vh;
+    margin: 10px;
+    border-radius: 5px;
+}
+.container .row2 .col:nth-child(2){
+    width: 25%;
+    background-image: url(https://conceptodefinicion.de/wp-content/uploads/2012/11/Derecho_Mercantil-2.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    height: 40vh;
+    margin: 10px;
+    border-radius: 5px;
+}
+.container .row2 .col:nth-child(3){
+    width: 25%;
+    background-image: url(http://lexmedica.co/wp-content/uploads/2014/09/lexmedica.jpg);
+    background-position: center;
+    background-size: auto 100%;
+    height: 40vh;
+    margin: 10px;
+    border-radius: 5px;
+}
+.col p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 200px;
+    background-color: rgba(255, 248, 220, 0.671);
+}
+/* fin main*/
+/* footer */
+.container-footer{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    background-color:#ffffff;
+    flex-direction: column;
+}
+.container-footer .row3{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+.container-footer .row3 .col-25{
+    width: 20%;
+    margin: 20px;
+    background-color: white;
+}
+.container-footer .row3 .col-25 img{
+    margin: 0 auto;
+    margin-top: auto;
+}
+.container-footer .log img{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-footer .redes img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-footer .row3 .col-25 ul{
+    padding: 0px;
+    text-align:center;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+    word-wrap: break-word;
+}
+.container-footer .row3 .col-25 ul li{
+    text-align:center;
+    color: rgb(232, 232, 232);
+    font-family: 'Barlow', sans-serif;
+    word-wrap: break-word;
+}
+.container-footer .row3 .col-25 ul li img{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    padding: auto;
+}
+.container-footer .row3 .col-25 ul p{
+    margin: 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}
+.container-footer .row3 .col-25:nth-child(1) ul li{
+    color: blue;
+    text-align: justify;
+    margin: 0;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+}
+.container-footer .row3 .col-25:nth-child(2) ul li{
+    list-style: none;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    color:rgb(116, 108, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    line-height: 3rem;
+}
+.container-footer .row3 .col-25:nth-child(2) ul li:hover{
+    cursor: pointer;
+    color: #5CD5F8;
+}
+.container-footer .row3 .col-25:nth-child(3) ul li{
+    list-style: none;
+    /* padding: 5px 10px; */
+    padding: auto;
+    font-size: 1.3rem;
+    color:rgb(103, 116, 107);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: left;
+    word-break: break-all;
+    line-height: 2.5rem;
+    margin-left: 1px;
+    display: table;
+    vertical-align: middle;
+    padding: 5px 10px;
+}
+.container-footer .row3 .col-25:nth-child(3) ul li:hover{
+    cursor: pointer;
+    color: #5CD5F8;
+}
+.container-footer .row4{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-footer .row4 img{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: auto;
+}
+.container-footer .row4 span{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 10px;
+    margin-top: 10px;
+}
+/* Responsive */
+@media (max-width:1080px){    
+    .container-footer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .container-footer .row3{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 0px;
+        margin: 0px;
+    }
+    .container-footer .row3 .col-25{
+       width: 25%;
+       margin-left: 10px;
+       margin-right: 10px;
+       margin-top: 20px;
+       margin-bottom: 30px;
+    }
+    .container-footer .row3 .col-25 ul{
+        padding: 0px;
+    }
+}
+@media (max-width:768px){ 
+    li a {
+        font-size: 1.2em;
+    }
+    .front{
+        margin-left: 2px;
+    }
+    .col p{
+        font-size: 1.3em;
+    }    
+    .container-footer .row3{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-footer .row3 .col-25{
+        width: 90%;
+        margin: 10px;
+    }
+    .container-footer .log img{
+        width: 20%;
+        height: 100px;
+    }
+    .container-footer .redes img{
+        width: 30%;
+        height: 150px;
+    }
+    .container-footer .row3 .col-25:nth-child(3) ul {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+    }
+    .container-footer .row3 .col-25:nth-child(3) ul li{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+    }
+    .container-footer .row3 .col-25:nth-child(4) {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+    }
+    .container-footer .row3 .col-25:nth-child(4) h2{
+        color: white;
+    }
+
+}
+@media (max-width:480px){ 
+    header .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    .navegacion{
+        margin-top: 20px;
+    }
+    .container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .container .row{
+        width: 50%;
+        display: flex;
+        flex-direction: column; 
+    }
+    .container .row .col:nth-child(1){
+        width: 80%;
+    }
+    .container .row .col:nth-child(2){
+        width: 80%;
+    }
+    .container .row .col:nth-child(3){
+        width: 80%;
+    }
+    .container .row2{
+        width: 50%;
+        display: flex;
+        flex-direction: column; 
+
+    }
+    .container .row2 .col:nth-child(1){
+        width: 80%;
+    }
+    .container .row2 .col:nth-child(2){
+        width: 80%;
+    }
+    .container .row2 .col:nth-child(3){
+        width: 80%;
+    }
+}
+
+@media (max-width:370px){ 
+    header .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        width: 100%;
+        padding: 0px;
+    }
+    .navegacion{
+        width: 100%;
+        margin: 0px;
+    }
+    .navegacion ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0px;    
+
+    }
+    .navegacion ul li{
+        margin: 10px;
+    }
+    .container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .container .row{
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+    }
+    .container .row .col:nth-child(1){
+        width: 80%;
+    }
+    .container .row .col:nth-child(2){
+        width: 80%;
+    }
+    .container .row .col:nth-child(3){
+        width: 80%;
+    }
+    .container .row2{
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+
+    }
+    .container .row2 .col:nth-child(1){
+        width: 80%;
+    }
+    .container .row2 .col:nth-child(2){
+        width: 80%;
+    }
+    .container .row2 .col:nth-child(3){
+        width: 80%;
+    }
+
+}   
